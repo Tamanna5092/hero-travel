@@ -5,50 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hero Travels</title>
     <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/af53811214.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- header section start -->
-    <header>
-        <!-- nav section start -->
-        <nav class="nav-container">
-            <div class="logo">
-                <img src="Images/Group 40071 (2).png" alt="">
-                <h2>Hero <span id="travel">Travel</span></h2>
-            </div>
-            <div class="nav-bar">
-                <ul>
-                    <li><a href=""><span id="home">Home</span></a></li>
-                    <li><a href="">Packages</a></li>
-                    <li><a href="">Testimonial</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-        <!-- banner section start -->
-        <section class="banner">
-            <div class="banner-info">
-                <h1>Explore Your Travel</h1>
-            <p class="banner-description">Planning your family getaway for 2024? Well, hold on to your hats because Montenegro is the <br> hidden gem you’ve been searching for! Tucked away in Southeast</p>
-            </div>
-            <div class="banner-menu-bar">
-                <input type="text" placeholder="Where go">
-                <Select id="select">
-                     <option value="one">When</option>
-                     <option value="two">Select Type</option>
-                </Select>
-                <Select id="select">
-                     <option value="two">Select Type</option>
-                     <option value="one">When</option>
-                </Select>
-                 <button class="btn-button">Find Now</button>
-            </div>
-        </section>
-    </header>
+    <div class="hide">
+        <header>
+            <!-- nav section start -->
+            <nav class="nav-container">
+                <div class="logo">
+                    <img src="Images/Group 40071 (2).png" alt="">
+                    <h2>Hero <span id="travel">Travel</span></h2>
+                </div>
+                <div class="nav-bar">
+                    <ul>
+                        <li><a href=""><span id="home">Home</span></a></li>
+                        <li><a href="">Packages</a></li>
+                        <li><a href="">Testimonial</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- banner section start -->
+            <section class="banner">
+                <div class="banner-info">
+                    <h1>Explore Your Travel</h1>
+                <p class="banner-description">Planning your family getaway for 2024? Well, hold on to your hats because Montenegro is the <br> hidden gem you’ve been searching for! Tucked away in Southeast</p>
+                </div>
+                <div class="banner-menu-bar">
+                   <div class="input">
+                    <input type="text" placeholder="Where go">
+                    <input type="text" placeholder="When">
+                    <input type="text" placeholder="Select type">
+                    <i id="icon" class="fa-solid fa-angle-down"></i>
+                    <i id="icons" class="fa-solid fa-angle-down"></i>
+                   </div>
+                     <button class="btn-button">Find Now</button>
+                </div>
+            </section>
+        </header>
+    </div>
     <!-- header section end -->
     <main>
         <!-- main section start -->
-        
+        <section class="tour-container">
+            <div class="about-tours">
+                <h1 class="text-black">Our Popular Tours</h1>
+                <p class="text-light-gray">Travel is important because it helps us to forget about our problems and frustration. During our journey, we experience life in different ways we explore new places , cultures,</p>
+              <ul class="light-gray">
+                <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
+                <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
+                <li> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
+              </ul>
+              <p class="text-light-gray">Bangladesh, a land of unexplored beauty mixed with fascinating history situated on the world’s largest Ganges-Brahmaputra delta boarded with India & Myanmar, the country is famous for its vibrant cultures & festivity, friendly people, splendid panoramic beauties of landscape, natural wonders like worlds single largest Sundarban mangrove forest,</p>
+              <button class="btn-button">Read More</button>
+            </div>
+            <div class="tour-img">
+                <img src="Images/Rectangle 4.png" alt="">
+            </div>
+        </section>
         <!-- main section end -->
     </main>
     <footer>
