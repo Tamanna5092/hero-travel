@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    font-family: "Mulish", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* common style shared */
+.btn-button{
+    border: 0px;
+    border-radius: 8px;
+    padding: 10px 40px;
+    background: #FF5400;
+    color: #FFF;
+}
+/* header section style */
+/* nav section style */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo h2{
+    color: #131318;
+    font-size: 36px; 
+    font-weight: 800;
+}
+.logo #travel{
+    color: #FF5400;
+}
+.nav-bar > ul{
+    list-style: none;
+    display: flex;
+    
+}
+.nav-bar ul li{
+    margin-right: 44px;
+    
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    font-size: 18px;
+    font-weight: 700; 
+}
+.nav-bar ul li #home{
+    color: #FF5400;
+}
+/* banner section style */
+.banner{
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-info{
+    text-align: center;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+}
+.banner-info h1{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    padding-top: 120px;
+}
+.banner-description{
+    margin-top: 24px;
+    color: #FFF;
+}
+.banner-menu-bar{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 8px; 
+    background: rgba(255, 255, 255, 0.30);
+}
+.banner-menu-bar input{
+    border: 0px;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 10px 5px; 
+}
+.banner-menu-bar #select{
+    border: 0px;
+    border-radius: 8px;
+    background: #FFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 60px; 
+}
+/* main section start */
